@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB SANZ</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/foto/sanz.jpg" alt="logo" class="logo-img" />
+				<h1 class="logo-title">Sanz :p</h1>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="#sanz">TENTANG</a></li>
+					<li><a href="https://www.facebook.com/Sanz.X.ID.1">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Sanz Here!</p>
+				<p class="description">Website Sekedar Hiburan :p</p>
+				<img src="assets/foto/sanz.jpg" alt="sanz" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Percaya Adanya Proses</p>
+				<p class="description">Belajar Aja Dulu, Jago Belakangan.</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Ngobrol Dimari</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="sanz">
+						<div class="card-item">
+							<img src="assets/foto/ml.jpg" alt="icon 1" class="icon"/>
+							<p class="card-title">Mabar Ml ?</p>
+							<p class="card-description">Gaskeun Tapi Masihh Noob :v</p>
+						</div>
+						<div class="card-item">
+							<img src="assets/foto/pp.jpg" alt="icon 2"  class="icon"/>
+							<p class="card-title">Orangnya Humoris</p>
+							<p class="card-description">Ga Galak Ko</p>
+						</div>
+						<div class="card-item">
+							<img src="assets/foto/fb.jpg" alt="icon 3"  class="icon"/>
+							<p class="card-title">Mampir Ke FB ?</p>
+							<p class="card-description">FB : Sanz X ID</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Sanz 2022</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://www.instagram.com/sanzuhuy"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+62895635507411"
+			}
+		</script>
+	</body>
+</html>
